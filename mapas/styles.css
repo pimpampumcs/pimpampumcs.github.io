@@ -1,3 +1,23 @@
+.map-container {
+    position: relative;
+    width: 100%; /* Adjust as per your preference */
+    max-width: 1000px; /* Optional, for setting max zoom limit */
+}
+
+.map-image {
+    width: 100%;
+    height: auto; /* Ensures the map image maintains aspect ratio */
+}
+
+.smoke-image {
+    position: absolute;
+    top: 35%; /* Adjust this value to position the smoke correctly */
+    left: 28%; /* Adjust this value to position the smoke correctly */
+    width: 4%; /* Adjust size of the smoke image */
+    height: auto;
+    z-index: 1; /* Make sure the smoke stays on top of the map */
+}
+
 body {
     color: whitesmoke;
     background-color: #090909;
